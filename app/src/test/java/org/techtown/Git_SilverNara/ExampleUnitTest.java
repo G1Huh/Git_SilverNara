@@ -1,4 +1,4 @@
-package org.techtown.exercise;
+package org.techtown.Git_SilverNara;
 
 import org.junit.Test;
 

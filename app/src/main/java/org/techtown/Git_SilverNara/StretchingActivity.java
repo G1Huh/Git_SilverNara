@@ -1,4 +1,4 @@
-package org.techtown.exercise;
+package org.techtown.Git_SilverNara;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main2Activity extends AppCompatActivity {
+public class StretchingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_stretching);
 
         Button oh;
 
@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
         oh.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent (Main2Activity.this,Main3Activity.class);
+                Intent intent = new Intent (StretchingActivity.this,Stretching2Activity.class);
                 startActivity(intent);
 
             }

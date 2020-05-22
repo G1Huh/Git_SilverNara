@@ -1,4 +1,4 @@
-package org.techtown.exercise;
+package org.techtown.Git_SilverNara;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,12 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class Main3Activity extends AppCompatActivity {
+public class Stretching2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_stretching2);
 
 
     }

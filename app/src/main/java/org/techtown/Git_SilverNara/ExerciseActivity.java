@@ -1,19 +1,18 @@
-package org.techtown.exercise;
+package org.techtown.Git_SilverNara;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ExerciseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exercise);
 
         Button stretch;
 
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         stretch.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent (MainActivity.this,Main2Activity.class);
+                Intent intent = new Intent (ExerciseActivity.this,StretchingActivity.class);
                 startActivity(intent);
 
             }
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         muscle.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent (MainActivity.this,Main4Activity.class);
+                Intent intent = new Intent (ExerciseActivity.this,MuscleActivity.class);
                 startActivity(intent);
 
             }
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         exercise.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent (MainActivity.this,Main5Activity.class);
+                Intent intent = new Intent (ExerciseActivity.this,RehabActivity.class);
                 startActivity(intent);
 
             }

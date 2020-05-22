@@ -5,33 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Main5Activity">
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ex3" />
 
     <Button
-        android:id="@+id/plantarfasciitis"
+        android:id="@+id/stretch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/jok"
-        android:onClick="plantarfasciitis"
         android:layout_marginLeft="38dp"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="60dp"
+        android:background="@drawable/stretch" />
 
     <Button
-        android:id="@+id/t1"
+        android:id="@+id/muscle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/t1"
-        android:onClick="degenerativearthritis1"
         android:layout_marginLeft="38dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:background="@drawable/muscle" />
 
     <Button
-        android:id="@+id/t2"
+        android:id="@+id/exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/t2"
-        android:onClick="degenerativearthritis2"
         android:layout_marginLeft="38dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:background="@drawable/exercise" />
+
 
 </LinearLayout>
